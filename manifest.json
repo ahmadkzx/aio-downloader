@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "AIO Downloader",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/p/CgcaW8EoXrz/"],
+      "js": ["dist/instagram/index.js"]
+    }
+  ]
+}
