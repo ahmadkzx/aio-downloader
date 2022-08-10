@@ -10,15 +10,25 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.ts?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+      {
+        test: /\.s[ac]ss$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: '[name].css',
+        },
+        use: ['sass-loader'],
+      },
     ],
   },
+
   resolve: {
-    extensions: ['.ts', '.js'],
+    extensions: ['.ts', '.js', '.css'],
   },
+
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
