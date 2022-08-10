@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.instagram.com/p/CgcaW8EoXrz/"],
-      "js": ["dist/instagram/index.js"]
+      "js": ["dist/instagram.js"]
     }
   ]
 }
