@@ -8,5 +8,9 @@
       "js": ["dist/instagram.js"],
       "css": ["dist/instagram.css"]
     }
-  ]
+  ],
+  "web_accessible_resources": [{
+    "matches": ["<all_urls>"],
+    "resources": ["dist/static/instagram-download..svg"]
+}]
 }
