@@ -11,6 +11,6 @@
   ],
   "web_accessible_resources": [{
     "matches": ["<all_urls>"],
-    "resources": ["dist/static/instagram-download..svg"]
+    "resources": ["dist/static/instagram-download.svg"]
 }]
 }
