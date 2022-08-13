@@ -4,6 +4,7 @@ module.exports = {
   mode: 'production',
 
   entry: {
+    main: './src/main.ts',
     instagram: './src/instagram/index.ts',
   },
 

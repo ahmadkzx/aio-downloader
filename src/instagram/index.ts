@@ -37,6 +37,11 @@ async function injectDownloadBtn() {
 }
 
 function download() {
+  // chrome.runtime.sendMessage({
+  //   action: 'CREATE_WINDOW',
+  //   url: location.href,
+  // })
+
   let imgIndex
   if (currentSlideIndex == 0) {
     imgIndex = 2
